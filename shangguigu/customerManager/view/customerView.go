@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-	"main/shangguigu/customerManager/model"
-	"main/shangguigu/customerManager/service"
 )
 
 type customerView struct {
