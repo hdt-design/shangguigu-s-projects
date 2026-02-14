@@ -1,0 +1,35 @@
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ===== Go =====
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# ===== Go Modules =====
+# 一般不忽略 go.sum，如果你不想提交可打开
+# go.sum
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Temporary files =====
+tmp/
+temp/
